@@ -1,0 +1,68 @@
+import { Product } from '../types';
+
+export const MOCK_PRODUCTS: Product[] = [
+  {
+    id: '1',
+    title: 'Neon Cyberpunk Poster Pack',
+    description: 'A collection of 5 high-resolution cyberpunk themed posters ready for print.',
+    category: 'Posters',
+    price: 15.00,
+    imageUrl: 'https://placehold.co/600x800/1e293b/94a3b8?text=Poster+Pack',
+  },
+  {
+    id: '2',
+    title: 'Modern SaaS UI Kit',
+    description: 'Complete UI kit for modern SaaS applications including dashboard and settings.',
+    category: 'UI Kits',
+    price: 49.00,
+    imageUrl: 'https://placehold.co/600x800/1e293b/94a3b8?text=SaaS+UI+Kit',
+  },
+  {
+    id: '3',
+    title: 'Instagram Influencer Bundle',
+    description: '30 customizable templates for Instagram stories and posts.',
+    category: 'Social Media',
+    price: 12.00,
+    imageUrl: 'https://placehold.co/600x800/1e293b/94a3b8?text=Instagram+Bundle',
+  },
+  {
+    id: '4',
+    title: 'Minimalist Brand Identity',
+    description: 'Logo, business card, and letterhead mockups for minimalist brands.',
+    category: 'Branding',
+    price: 25.00,
+    imageUrl: 'https://placehold.co/600x800/1e293b/94a3b8?text=Brand+Identity',
+  },
+  {
+    id: '5',
+    title: 'E-commerce Banner Set',
+    description: 'High converting banner templates for seasonal sales.',
+    category: 'Banners',
+    price: 10.00,
+    imageUrl: 'https://placehold.co/600x800/1e293b/94a3b8?text=Banner+Set',
+  },
+  {
+    id: '6',
+    title: 'Resume & CV Templates',
+    description: 'Professional resume templates to help you land your dream job.',
+    category: 'Templates',
+    price: 8.00,
+    imageUrl: 'https://placehold.co/600x800/1e293b/94a3b8?text=CV+Templates',
+  },
+  {
+    id: '7',
+    title: 'Abstract Art Poster',
+    description: 'Contemporary abstract art for modern interiors.',
+    category: 'Posters',
+    price: 18.00,
+    imageUrl: 'https://placehold.co/600x800/1e293b/94a3b8?text=Abstract+Art',
+  },
+  {
+    id: '8',
+    title: 'Mobile App Wireframe Kit',
+    description: 'Low fidelity wireframing kit for rapid prototyping.',
+    category: 'UI Kits',
+    price: 29.00,
+    imageUrl: 'https://placehold.co/600x800/1e293b/94a3b8?text=Wireframe+Kit',
+  },
+];
