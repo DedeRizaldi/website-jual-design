@@ -37,6 +37,7 @@ const Navbar: React.FC = () => {
   if (user && !isAdmin) {
     navLinks.push({ name: 'Wishlist', path: '/wishlist' });
     navLinks.push({ name: 'My Downloads', path: '/downloads' });
+    navLinks.push({ name: 'Profile', path: '/profile' });
   }
 
   const isActive = (path: string) => location.pathname === path;

@@ -9,6 +9,7 @@ import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
 import Downloads from './pages/Downloads';
 import Wishlist from './pages/Wishlist';
+import Profile from './pages/Profile';
 import { Login, Register } from './pages/AuthPages';
 import { AuthProvider } from './context/AuthContext';
 import { CartProvider } from './context/CartContext';
@@ -65,6 +66,7 @@ const App: React.FC = () => {
               <Route path="checkout" element={<Checkout />} />
               <Route path="downloads" element={<Downloads />} />
               <Route path="wishlist" element={<Wishlist />} />
+              <Route path="profile" element={<Profile />} />
             </Route>
 
             {/* Admin Routes */}
